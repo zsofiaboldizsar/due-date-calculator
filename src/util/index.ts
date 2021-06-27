@@ -1,1 +1,1 @@
-export * from './is-valid-submission-date';
+export * from './is-working-hours';
