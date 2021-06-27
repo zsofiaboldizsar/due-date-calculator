@@ -1,8 +1,9 @@
 # Due Date Calculator
 
 Calculates the due date in an issue tracking system. 
-• Input: Takes the submit date/time and turnaround time.
-• Output: Returns the date/time when the issue is due. 
+
+- Input: Takes the submit date/time and turnaround time.
+- Output: Returns the date/time when the issue is due. 
 
 ## Installation
 
@@ -12,27 +13,30 @@ Calculates the due date in an issue tracking system.
 
 Make sure you have [Node.js] and [Git] installed on your computer.
 
-Open a directory in your terminal where you wish to clone this [repository] to. Run
+Open a directory in your terminal where you wish to clone this [repository] to.
 
-```
-git clone https://github.com/zsofiaboldizsar/due-date-calculator.git
-```
-
-Install packages
-
-```
-npm install
+```bash
+# clone the repository
+$ git clone https://github.com/zsofiaboldizsar/due-date-calculator.git
 ```
 
-Start
-
+```bash
+# go to the directory
+$ cd due-date-calculator
 ```
-npm start
+
+```bash
+# install dependencies
+$ npm install
 ```
 
-Test
-
+```bash
+# run the application
+$ npm start
 ```
-npm run test
+
+```bash
+# run tests
+$ npm run test
 ```
 
