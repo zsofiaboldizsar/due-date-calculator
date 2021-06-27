@@ -4,9 +4,6 @@ export const calculateDueDate = (submissionDate: Date, turnaroundTime: number): 
   if (!isWorkingHours(submissionDate)) {
     throw new Error('Please submit your issue during working hours');
   }
-  if (isNaN(turnaroundTime)) {
-    throw new Error('Please provide a number for the turnaround time');
-  }
 
   let dueDate = new Date(submissionDate.getTime());
   let elapsedHours = 0;
@@ -20,4 +17,5 @@ export const calculateDueDate = (submissionDate: Date, turnaroundTime: number): 
   return dueDate;
 };
 
-// console.log('Due date:', calculateDueDate(new Date('2021-06-25 16:00:00'), 16));
+console.log(`Start date: ${new Date('2021-06-25 16:00:00')}`);
+console.log(`Due date: ${calculateDueDate(new Date('2021-06-25 16:00:00'), 16)}`);
