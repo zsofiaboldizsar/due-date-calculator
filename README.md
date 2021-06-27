@@ -24,8 +24,6 @@ Install packages
 npm install
 ```
 
-```
-
 Start
 
 ```
