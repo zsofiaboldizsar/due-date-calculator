@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { isValidSumbissionDate } from '../../src/util';
 
-describe.only('isValidSumbissionDate', () => {
+describe('isValidSumbissionDate', () => {
   it('happy path - should return true as submission date and time within valid range', () => {
     const submissionDate = new Date('2021-06-29 16:59:59');
     const actualResult = isValidSumbissionDate(submissionDate);
